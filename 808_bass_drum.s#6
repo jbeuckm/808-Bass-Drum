@@ -20684,13 +20684,13 @@ Source: AVX .. aphvc.pdf</description>
 <part name="V101" library="supply1" deviceset="GND" device=""/>
 <part name="C40" library="TR808clone" deviceset="C-EU" device="050-024X044" value="15n"/>
 <part name="R163" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="100K"/>
-<part name="C39" library="TR808clone" deviceset="C-EU" device="050-024X044" value="33n"/>
+<part name="C39" library="TR808clone" deviceset="C-EU" device="050-025X075" value="33n"/>
 <part name="R159" library="TR808clone" deviceset="R-EU_" device="0207/7" value="100K"/>
 <part name="D52" library="TR808clone" deviceset="1N4148" device="DO35-7"/>
 <part name="V103" library="supply1" deviceset="GND" device=""/>
 <part name="R161" library="TR808clone" deviceset="R-EU_" device="0207/7" value="1M"/>
 <part name="V104" library="supply1" deviceset="GND" device=""/>
-<part name="R166" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="6K8"/>
+<part name="R166" library="TR808clone" deviceset="R-EU_" device="0309/10" value="6K8"/>
 <part name="R165" library="TR808clone" deviceset="R-EU_" device="0207/7" value="47K"/>
 <part name="V105" library="supply1" deviceset="GND" device=""/>
 <part name="C42" library="TR808clone" deviceset="C-EU" device="050-024X044" value="15n"/>
@@ -20700,24 +20700,24 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R162" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="4K7"/>
 <part name="V106" library="supply1" deviceset="GND" device=""/>
 <part name="V107" library="supply1" deviceset="GND" device=""/>
-<part name="R167" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="1M"/>
+<part name="R167" library="TR808clone" deviceset="R-EU_" device="0207/7" value="1M"/>
 <part name="R164" library="TR808clone" deviceset="R-EU_" device="0207/7" value="47K"/>
 <part name="R171" library="TR808clone" deviceset="R-EU_" device="0207/7" value="220R"/>
-<part name="R169" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="47K"/>
-<part name="R168" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="22K"/>
+<part name="R169" library="TR808clone" deviceset="R-EU_" device="0207/7" value="47K"/>
+<part name="R168" library="TR808clone" deviceset="R-EU_" device="0207/7" value="22K"/>
 <part name="V108" library="supply1" deviceset="GND" device=""/>
 <part name="C45" library="TR808clone" deviceset="C-EU" device="050-030X075" value="100n"/>
 <part name="V109" library="supply1" deviceset="GND" device=""/>
 <part name="R172" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10K"/>
 <part name="V110" library="supply1" deviceset="GND" device=""/>
-<part name="R177" library="TR808clone" deviceset="R-EU_" device="0207/7" value="82K"/>
-<part name="R176" library="TR808clone" deviceset="R-EU_" device="0207/7" value="100K"/>
+<part name="R177" library="TR808clone" deviceset="R-EU_" device="0309/10" value="82K"/>
+<part name="R176" library="TR808clone" deviceset="R-EU_" device="0309/10" value="100K"/>
 <part name="C48" library="TR808clone" deviceset="C-EU" device="050-025X075" value="220p"/>
-<part name="R173" library="TR808clone" deviceset="R-EU_" device="0207/7" value="6K8"/>
+<part name="R173" library="TR808clone" deviceset="R-EU_" device="0309/10" value="6K8"/>
 <part name="V111" library="supply1" deviceset="GND" device=""/>
 <part name="V112" library="supply1" deviceset="GND" device=""/>
 <part name="R174" library="TR808clone" deviceset="R-EU_" device="0207/7" value="100K"/>
-<part name="R175" library="TR808clone" deviceset="R-EU_" device="0207/7" value="1K"/>
+<part name="R175" library="TR808clone" deviceset="R-EU_" device="0309/10" value="1K"/>
 <part name="C49" library="TR808clone" deviceset="CPOL-EU" device="E2.5-5" value=".47/50"/>
 <part name="C43" library="TR808clone" deviceset="CPOL-EU" device="E2.5-5" value="33/6.3"/>
 <part name="C47" library="TR808clone" deviceset="CPOL-EU" device="E2.5-5" value=".47/50"/>
