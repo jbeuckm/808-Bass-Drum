@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : /Users/joebeuckman/Dropbox/CAM/eurorack/808_bass_drum/808_bass_drum.brd
+Job           : /Users/jpbeuc1/test/808-Bass-Drum/808_bass_drum.brd
 
-Start at      : 07:57:34 (1/8/15)
-End at        : 08:01:01 (1/8/15)
-Elapsed time  : 00:03:25
+Start at      : 20:36:29 (5/11/16)
+End at        : 20:37:06 (5/11/16)
+Elapsed time  : 00:00:36
 
-Signals       :    32   RoutingGrid: 13 mil  Layers: 1
-Connections   :   109   predefined:  16 ( 0 Vias )
+Signals       :    35   RoutingGrid: 25 mil  Layers: 1
+Connections   :   116   predefined:  2 ( 0 Vias )
 
-Router memory :   164500
+Router memory :   49500
 
-Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
+Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:20  00:02:55  00:00:01  00:00:00  00:00:01  00:00:01  00:00:00  00:00:01  00:00:02  00:00:01  00:00:00  00:00:01  00:00:01  00:00:01
-Number of Ripups  :         0       435         0         0         0         0         0         0         0         0         0         0         0         0
-max. Level        :         0         5         0         0         0         0         0         0         0         0         0         0         0         0
-max. Total        :         0        35         0         0         0         0         0         0         0         0         0         0         0         0
+Time per pass     :  00:00:35  00:00:01  00:00:00  00:00:00  00:00:00
+Number of Ripups  :       700         0         0         0         0
+max. Level        :         5         0         0         0         0
+max. Total        :        42         0         0         0         0
 
-Routed            :        62        89        90        90        90        89        90        90        90        90        90        90        90        90
-Vias              :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
-Resolution        :    71.6 %    96.3 %    97.2 %    97.2 %    97.2 %    96.3 %    97.2 %    97.2 %    97.2 %    97.2 %    97.2 %    97.2 %    97.2 %    97.2 %
+Routed            :       105       105       106       106       106
+Vias              :         0         0         0         0         0
+Resolution        :    92.2 %    92.2 %    93.1 %    93.1 %    93.1 %
 
-Final             : 97.2% finished
+Final             : 93.1% finished
