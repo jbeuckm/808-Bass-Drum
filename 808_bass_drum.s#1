@@ -20684,15 +20684,13 @@ Source: AVX .. aphvc.pdf</description>
 <part name="V101" library="supply1" deviceset="GND" device=""/>
 <part name="C40" library="TR808clone" deviceset="C-EU" device="050-024X044" value="15n"/>
 <part name="R163" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="100K"/>
-<part name="C39" library="TR808clone" deviceset="C-EU" device="050-024X044" value="33n"/>
+<part name="C39" library="TR808clone" deviceset="C-EU" device="050-025X075" value="33n"/>
 <part name="R159" library="TR808clone" deviceset="R-EU_" device="0207/7" value="100K"/>
 <part name="D52" library="TR808clone" deviceset="1N4148" device="DO35-7"/>
 <part name="V103" library="supply1" deviceset="GND" device=""/>
 <part name="R161" library="TR808clone" deviceset="R-EU_" device="0207/7" value="1M"/>
 <part name="V104" library="supply1" deviceset="GND" device=""/>
-<part name="R166" library="TR808clone" deviceset="R-EU_" device="0207/7" value="6K8"/>
-<part name="R165" library="TR808clone" deviceset="R-EU_" device="0207/7" value="47K"/>
-<part name="V105" library="supply1" deviceset="GND" device=""/>
+<part name="R166" library="TR808clone" deviceset="R-EU_" device="0309/10" value="6K8"/>
 <part name="C42" library="TR808clone" deviceset="C-EU" device="050-024X044" value="15n"/>
 <part name="C41" library="TR808clone" deviceset="C-EU" device="050-024X044" value="15n"/>
 <part name="R170" library="TR808clone" deviceset="R-EU_" device="0207/7" value="470K"/>
@@ -20700,20 +20698,20 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R162" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="4K7"/>
 <part name="V106" library="supply1" deviceset="GND" device=""/>
 <part name="V107" library="supply1" deviceset="GND" device=""/>
-<part name="R167" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="1M"/>
+<part name="R167" library="TR808clone" deviceset="R-EU_" device="0207/7" value="1M"/>
 <part name="R164" library="TR808clone" deviceset="R-EU_" device="0207/7" value="47K"/>
 <part name="R171" library="TR808clone" deviceset="R-EU_" device="0207/7" value="220R"/>
-<part name="R169" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="47K"/>
-<part name="R168" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="22K"/>
+<part name="R169" library="TR808clone" deviceset="R-EU_" device="0207/7" value="47K"/>
+<part name="R168" library="TR808clone" deviceset="R-EU_" device="0207/7" value="22K"/>
 <part name="V108" library="supply1" deviceset="GND" device=""/>
 <part name="C45" library="TR808clone" deviceset="C-EU" device="050-030X075" value="100n"/>
 <part name="V109" library="supply1" deviceset="GND" device=""/>
 <part name="R172" library="TR808clone" deviceset="R-EU_" device="0207/5V" value="10K"/>
 <part name="V110" library="supply1" deviceset="GND" device=""/>
-<part name="R177" library="TR808clone" deviceset="R-EU_" device="0207/7" value="82K"/>
-<part name="R176" library="TR808clone" deviceset="R-EU_" device="0207/7" value="100K"/>
+<part name="R177" library="TR808clone" deviceset="R-EU_" device="0309/10" value="82K"/>
+<part name="R176" library="TR808clone" deviceset="R-EU_" device="0309/10" value="100K"/>
 <part name="C48" library="TR808clone" deviceset="C-EU" device="050-025X075" value="220p"/>
-<part name="R173" library="TR808clone" deviceset="R-EU_" device="0207/7" value="6K8"/>
+<part name="R173" library="TR808clone" deviceset="R-EU_" device="0309/10" value="6K8"/>
 <part name="V111" library="supply1" deviceset="GND" device=""/>
 <part name="V112" library="supply1" deviceset="GND" device=""/>
 <part name="R174" library="TR808clone" deviceset="R-EU_" device="0207/7" value="100K"/>
@@ -20792,8 +20790,6 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R161" gate="G$1" x="60.96" y="81.28" rot="R180"/>
 <instance part="V104" gate="1" x="60.96" y="48.26"/>
 <instance part="R166" gate="G$1" x="68.58" y="71.12" rot="R90"/>
-<instance part="R165" gate="G$1" x="68.58" y="58.42" rot="R270"/>
-<instance part="V105" gate="1" x="68.58" y="48.26"/>
 <instance part="C42" gate="G$1" x="81.28" y="76.2" rot="R90"/>
 <instance part="C41" gate="G$1" x="58.42" y="76.2" rot="R90"/>
 <instance part="R170" gate="G$1" x="93.98" y="81.28"/>
@@ -21175,11 +21171,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="15.24" y1="55.88" x2="15.24" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R165" gate="G$1" pin="2"/>
-<pinref part="V105" gate="1" pin="GND"/>
-<wire x1="68.58" y1="50.8" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R168" gate="G$1" pin="2"/>
 <pinref part="V108" gate="1" pin="GND"/>
 <wire x1="116.84" y1="45.72" x2="116.84" y2="48.26" width="0.1524" layer="91"/>
@@ -21277,8 +21268,6 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <wire x1="60.96" y1="66.04" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="R166" gate="G$1" pin="1"/>
-<pinref part="R165" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="63.5" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
 <junction x="68.58" y="66.04"/>
 <wire x1="60.96" y1="63.5" x2="60.96" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="Q7" gate="G1" pin="C"/>
