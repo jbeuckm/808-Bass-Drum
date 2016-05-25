@@ -176,28 +176,6 @@ drill 1.0 mm</description>
 </library>
 <library name="TR808clone">
 <packages>
-<package name="C050-030X075">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 5 mm, outline 3 x 7.5 mm</description>
-<wire x1="-0.3048" y1="0.635" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
-<wire x1="-0.3048" y1="0" x2="-0.3048" y2="-0.635" width="0.3048" layer="21"/>
-<wire x1="-0.3048" y1="0" x2="-1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.3302" y1="0.635" x2="0.3302" y2="0" width="0.3048" layer="21"/>
-<wire x1="0.3302" y1="0" x2="0.3302" y2="-0.635" width="0.3048" layer="21"/>
-<wire x1="0.3302" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="-3.683" y1="1.27" x2="-3.683" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-3.429" y1="-1.524" x2="3.429" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="3.683" y1="-1.27" x2="3.683" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.429" y1="1.524" x2="-3.429" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="3.429" y1="1.524" x2="3.683" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<wire x1="3.429" y1="-1.524" x2="3.683" y2="-1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="-3.683" y1="-1.27" x2="-3.429" y2="-1.524" width="0.1524" layer="21" curve="90"/>
-<wire x1="-3.683" y1="1.27" x2="-3.429" y2="1.524" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-2.54" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="2.54" y="0" drill="0.8128" shape="octagon"/>
-<text x="-3.556" y="1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.556" y="-3.048" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name="C050-025X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5 mm, outline 2.5 x 7.5 mm</description>
@@ -1942,7 +1920,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="ACCENT" library="solpad" package="LSP10" value="LSP10" x="27.94" y="53.34" rot="R90"/>
-<element name="C38" library="TR808clone" package="C050-030X075" value="100n" x="59.69" y="60.96" rot="R180"/>
+<element name="C38" library="TR808clone" package="C050-024X044" value="100n" x="59.69" y="60.96" rot="R180"/>
 <element name="C39" library="TR808clone" package="C050-025X075" value="33n" x="72.39" y="27.305" rot="R180"/>
 <element name="C40" library="TR808clone" package="C050-024X044" value="15n" x="56.261" y="52.324"/>
 <element name="C41" library="TR808clone" package="C050-024X044" value="15n" x="38.1" y="45.72" rot="R90"/>
@@ -2355,9 +2333,9 @@ design rules under a new name.</description>
 <wire x1="1.27" y1="4.445" x2="3.81" y2="1.27" width="1.016" layer="16"/>
 <wire x1="1.27" y1="15.875" x2="1.27" y2="4.445" width="1.016" layer="16"/>
 <wire x1="4.7625" y1="20.0025" x2="1.27" y2="15.875" width="1.016" layer="16"/>
-<wire x1="60.325" y1="68.58" x2="64.77" y2="64.135" width="1.016" layer="16"/>
-<wire x1="17.145" y1="68.58" x2="60.325" y2="68.58" width="1.016" layer="16"/>
-<wire x1="5.08" y1="56.515" x2="17.145" y2="68.58" width="1.016" layer="16"/>
+<wire x1="63.373" y1="65.278" x2="64.77" y2="64.135" width="1.016" layer="16"/>
+<wire x1="12.065" y1="65.278" x2="63.373" y2="65.278" width="1.016" layer="16"/>
+<wire x1="5.08" y1="56.515" x2="12.065" y2="65.278" width="1.016" layer="16"/>
 <wire x1="5.08" y1="48.895" x2="5.08" y2="56.515" width="1.016" layer="16"/>
 <wire x1="8.89" y1="46.355" x2="5.08" y2="48.895" width="1.016" layer="16"/>
 <wire x1="8.89" y1="46.355" x2="8.89" y2="46.99" width="1.016" layer="16"/>

@@ -176,28 +176,6 @@ drill 1.0 mm</description>
 </library>
 <library name="TR808clone">
 <packages>
-<package name="C050-030X075">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 5 mm, outline 3 x 7.5 mm</description>
-<wire x1="-0.3048" y1="0.635" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
-<wire x1="-0.3048" y1="0" x2="-0.3048" y2="-0.635" width="0.3048" layer="21"/>
-<wire x1="-0.3048" y1="0" x2="-1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.3302" y1="0.635" x2="0.3302" y2="0" width="0.3048" layer="21"/>
-<wire x1="0.3302" y1="0" x2="0.3302" y2="-0.635" width="0.3048" layer="21"/>
-<wire x1="0.3302" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="-3.683" y1="1.27" x2="-3.683" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-3.429" y1="-1.524" x2="3.429" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="3.683" y1="-1.27" x2="3.683" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.429" y1="1.524" x2="-3.429" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="3.429" y1="1.524" x2="3.683" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<wire x1="3.429" y1="-1.524" x2="3.683" y2="-1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="-3.683" y1="-1.27" x2="-3.429" y2="-1.524" width="0.1524" layer="21" curve="90"/>
-<wire x1="-3.683" y1="1.27" x2="-3.429" y2="1.524" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-2.54" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="2.54" y="0" drill="0.8128" shape="octagon"/>
-<text x="-3.556" y="1.905" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.556" y="-3.048" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name="C050-025X075">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 5 mm, outline 2.5 x 7.5 mm</description>
@@ -1942,7 +1920,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="ACCENT" library="solpad" package="LSP10" value="LSP10" x="27.94" y="53.34" rot="R90"/>
-<element name="C38" library="TR808clone" package="C050-030X075" value="100n" x="59.69" y="60.96" rot="R180"/>
+<element name="C38" library="TR808clone" package="C050-024X044" value="100n" x="59.69" y="60.96" rot="R180"/>
 <element name="C39" library="TR808clone" package="C050-025X075" value="33n" x="72.39" y="27.305" rot="R180"/>
 <element name="C40" library="TR808clone" package="C050-024X044" value="15n" x="56.261" y="52.324"/>
 <element name="C41" library="TR808clone" package="C050-024X044" value="15n" x="38.1" y="45.72" rot="R90"/>
@@ -1998,7 +1976,7 @@ design rules under a new name.</description>
 <element name="R176" library="TR808clone" package="0309/10" value="100K" x="50.8" y="21.59" rot="R270"/>
 <element name="R177" library="TR808clone" package="0309/10" value="82K" x="59.69" y="25.4"/>
 <element name="TONE" library="pot" package="3RP/1610N" value="10K(C)" x="31.75" y="3.81"/>
-<element name="TRIG" library="solpad" package="LSP10" value="LSP10" x="27.94" y="64.77" rot="R90"/>
+<element name="TRIG" library="solpad" package="LSP10" value="LSP10" x="17.78" y="60.96" rot="R90"/>
 <element name="TUNE_MOD" library="pot" package="3RP/1610N" value="100k" x="53.34" y="3.81"/>
 <element name="U$2" library="eurorack" package="POWER_16" value="POWER" x="10.16" y="45.72" rot="R90"/>
 <element name="U$1" library="adafruit" package="FB" value="FB" x="20.32" y="52.07" rot="R270"/>
@@ -2495,7 +2473,6 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="16"/>
 <wire x1="11.43" y1="57.15" x2="8.89" y2="57.15" width="0.8128" layer="16"/>
 <wire x1="24.13" y1="60.96" x2="22.86" y2="60.96" width="0.8128" layer="16"/>
-<wire x1="27.94" y1="64.77" x2="24.13" y2="60.96" width="0.8128" layer="16"/>
 <wire x1="13.97" y1="57.15" x2="11.43" y2="57.15" width="0.8128" layer="16"/>
 <wire x1="17.78" y1="60.96" x2="13.97" y2="57.15" width="0.8128" layer="16"/>
 <wire x1="22.86" y1="60.96" x2="17.78" y2="60.96" width="0.8128" layer="16"/>
